@@ -1,0 +1,1193 @@
+/* Seccion Encabezados Nosotros */
+.seccionEncabezadoNosotros {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    z-index: 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+.seccionEncabezadoNosotros div {
+    padding: 0 20px;
+    border-left: 2px solid white;
+}
+.seccionEncabezadoNosotros::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/imagen10.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(20%);
+    -webkit-filter: brightness(20%);
+}
+.seccionEncabezadoNosotros h3 {
+    font-family: "Antonio";
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+.seccionEncabezadoNosotros h1 {
+    font-family: "Antonio";
+    text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+}
+/* Seccion Historia */
+.seccion-sobre-flammas {
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.seccion-sobre-flammas h2 {
+    font-family: "Antonio";
+    color: #FD5D05;
+    font-size: 60px;
+    font-weight: bold;
+}
+.seccion-sobre-flammas .imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-sobre-flammas img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 0 0 30px;
+    -webkit-border-radius: 30px 0 0 30px;
+    -moz-border-radius: 30px 0 0 30px;
+    -ms-border-radius: 30px 0 0 30px;
+    -o-border-radius: 30px 0 0 30px;
+}
+/*Seccion Mision*/
+.seccion-mision {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-mision h2 {
+    font-family: "Antonio";
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.seccion-mision .contenedor-cartas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.seccion-mision .carta {
+    flex: 1;
+    max-width: calc(33.333% - 20px);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 1px solid #FD5D05;
+}
+.seccion-mision .imagen-contenedor {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.seccion-mision .imagen-contenedor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+.seccion-mision .imagen img{
+    width: 100%;
+    height: auto;
+}
+/*Seccion Vision*/
+.seccion-vision{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.seccion-vision h2{
+    font-family: "Antonio";
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.seccion-vision p{
+    color: white;
+}
+.seccion-vision .row{
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    outline: 1px solid #FD5D05;
+}
+.imagenVision img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+/* Tercera Seccion */
+.contenedor-tercera-seccion {
+    height: auto;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+.contenedor-tercera-seccion h2 {
+    font-family: "Antonio";
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.contenedor-cartas-terceraS {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 15px;
+    color: black;
+}
+.contenedor-cartas-terceraS .mini-terceraseccion {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contenedor-cartas-terceraS .mini-terceraseccion h1{
+    color: #000424;
+    font-family: "Antonio";
+    font-weight: bold;
+    font-size: 50px;
+}
+/*Seccion Imagen Central*/
+.seccion-Img-Central{
+    margin-top: 80px;
+    margin-bottom: 130px;
+}
+.seccion-Img-Central h2{
+    font-family: "Antonio";
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.seccion-Img-Central .card{
+    background-color:  #000424;
+    border-bottom: 1px solid white;
+    border-radius: 0%;
+}
+.seccion-Img-Central .t1, .t2{
+    text-align: right;
+    position: absolute;
+    bottom: 0%;
+}
+.seccion-Img-Central .t3, .t4{
+    text-align: left;
+    position: absolute;
+    bottom: 0%;
+}
+.seccion-Img-Central .card-body{
+    align-items: center;
+    height: 150px;
+}
+.seccion-Img-Central .middle-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-Img-Central .middle-col img{
+    width: 600px;
+    height: auto;
+}
+.seccion-HMV button {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+/*Seccion Valores*/
+.seccion-valores h2{
+    font-family: "Antonio";
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.seccion-valores .card{
+    border-radius: 25px;
+    width: 350px;
+}
+.seccion-valores .imagen-contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.seccion-valores .imagen-puesta{
+    width: 150px;
+}
+.seccion-valores .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.seccion-valores p{
+    font-weight: bold;
+    font-size: 15px;
+}
+/*Seccion TSTI*/
+.seccion-TSTI{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.seccion-TSTI .container{
+    outline: 1px solid white;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+.seccion-TSTI h2{
+    font-family: "Antonio";
+    font-size: 70px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.subti {
+    font-size: 25px;
+    font-weight: bold;
+}
+.parrafo{
+    text-align: right;
+}
+.seccion-TSTI p{
+    color: white;
+}
+.seccion-TSTI .row{
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    /*outline: 1px solid #FD5D05;*/
+}
+.seccion-TSTI .imagenTSTI{
+    text-align: right;
+}
+.seccion-TSTI .imagenTSTI img{
+    width: 400px;
+    height: auto;
+    /*height: 250px;*/
+    border-radius: 10px;
+    object-fit: cover;
+    /*margin-left: 70px;*/
+}
+/*Seccion HMV*/
+.seccion-HMV{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.seccion-HMV .btn-full-width {
+    width: 100%;
+}
+.seccion-HMV .content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
+    padding: 0 10px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.seccion-HMV .btn-full-width:hover + .content,
+.seccion-HMV .btn-full-width:focus-within + .content,
+.seccion-HMV .content:hover {
+    max-height: 1000px;
+    opacity: 1;
+    padding: 10px;
+}
+.txt-menu {
+    font-family: "Antonio";
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.boton-oscuro {
+    outline: 1px solid white;
+    margin-bottom: 15px;
+    margin-top: 0;
+    background-color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 1.5s ease;
+}
+.boton-oscuro h2.txt-menu {
+    margin: 0;
+}
+.boton-oscuro:hover {
+    background-color: #FD5D05;
+}
+.boton-oscuro:focus,
+.boton-oscuro:active,
+.boton-oscuro.active {
+    background-color: #FD5D05;
+}
+
+/* Medias Querys */
+/* Seccion Encabezado Nosotros */
+/* Medio grande (para tabletas en paisaje y algunos ordenadores de escritorio) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .seccionEncabezadoNosotros h3 {
+        font-size: 45px;
+    }
+    .seccionEncabezadoNosotros h1 {
+        font-size: 55px;
+    }
+}
+/* Medio (para retratos de tabletas y teléfonos móviles grandes) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .seccionEncabezadoNosotros h3 {
+        font-size: 40px;
+    }
+    .seccionEncabezadoNosotros h1 {
+        font-size: 50px;
+    }
+}
+/* Medio pequeño (para teléfonos móviles grandes) */
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .seccionEncabezadoNosotros h3 {
+        font-size: 30px;
+    }
+    .seccionEncabezadoNosotros h1 {
+        font-size: 40px;
+    }
+}
+/* Pequeño (para teléfonos móviles pequeños) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .seccionEncabezadoNosotros h3 {
+        font-size: 30px;
+    }
+    .seccionEncabezadoNosotros h1 {
+        font-size: 40px;
+    }
+}
+/* Extra pequeño (para teléfonos móviles muy pequeños) */
+@media only screen and (max-width: 320px) {
+    .seccionEncabezadoNosotros h3 {
+        font-size: 25px;
+    }
+    .seccionEncabezadoNosotros h1 {
+        font-size: 35px;
+    }
+}
+
+/* Seccion Historia, Vision y Mision */
+/* Medio (para retratos de tabletas y teléfonos móviles grandes) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Seccion Historia */
+    .seccion-sobre-flammas {
+        padding: 20px;
+    }
+    .seccion-sobre-flammas h2 {
+        font-size: 45px;
+    }
+    /*Seccion Mision*/
+    .seccion-mision h2 {
+        font-size: 50px;
+    }
+    .seccion-mision .contenedor-cartas {
+        justify-content: space-evenly;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .seccion-mision .contenedor-cartas .carta p{
+        font-size: 12px;
+    }
+    /*Seccion Vision*/
+    .seccion-vision{
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .seccion-vision h2{
+        font-size: 50px;
+    }
+    .seccion-vision p{
+        color: white;
+    }
+    .imagenVision img{
+        height: 320px;
+    }
+    .txt-menu {
+        font-size: 35px;
+    }
+}
+/* Medio pequeño (para teléfonos móviles grandes) */
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+        /* Seccion Historia */
+        .seccion-sobre-flammas {
+            padding: 20px;
+            text-align: center;
+        }
+        .seccion-sobre-flammas h2 {
+            font-size: 45px;
+            margin: 10px 0;
+        }
+        /*Seccion Mision*/
+        .seccion-mision h2 {
+            font-size: 40px;
+        }
+        .seccion-mision .contenedor-cartas {
+            justify-content: space-evenly;
+            gap: 3px;
+            padding-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .seccion-mision .contenedor-cartas .carta {
+            min-width: 45%;
+            margin-bottom: 10px;
+        }
+        .seccion-mision .contenedor-cartas .carta p{
+            font-size: 12px;
+        }
+        /*Seccion Vision*/
+        .seccion-vision{
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+        .seccion-vision h2{
+            font-size: 40px;
+        }
+        .seccion-vision p{
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .imagenVision img{
+            height: 320px;
+        }
+        .txt-menu {
+            font-size: 30px;
+        }
+}
+/* Pequeño (para teléfonos móviles pequeños) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+          /* Seccion Historia */
+        .seccion-sobre-flammas {
+            padding: 20px;
+            text-align: center;
+        }
+        .seccion-sobre-flammas h2 {
+            font-size: 45px;
+            margin: 10px 0;
+        }
+        /*Seccion Mision*/
+        .seccion-mision {
+            height: 100%;
+        }
+        .seccion-mision h2 {
+            font-size: 40px;
+        }
+        .seccion-mision .contenedor-cartas {
+            display: flex;
+            align-items: start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            height: auto;
+        }
+        .seccion-mision .contenedor-cartas .carta {
+            min-width: 100%;
+            height: 350px;
+        }
+        .seccion-mision .contenedor-cartas .carta p{
+            font-size: 12px;
+        }
+        .seccion-mision .carta {
+            max-height: 280px;
+        }
+        /*Seccion Vision*/
+        .seccion-vision{
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+        .seccion-vision h2{
+            font-size: 40px;
+        }
+        .seccion-vision p{
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .imagenVision img{
+            height: 320px;
+        }
+        .txt-menu {
+            font-size: 30px;
+        }
+}
+/* Extra pequeño (para teléfonos móviles muy pequeños) */
+@media only screen and (max-width: 320px) {
+              /* Seccion Historia */
+        .seccion-sobre-flammas {
+            padding: 20px;
+            text-align: center;
+        }
+        .seccion-sobre-flammas h2 {
+            font-size: 25px;
+            margin: 10px 0;
+        }
+        .seccion-sobre-flammas p {
+            font-size: 16px;
+        }
+        /*Seccion Mision*/
+        .seccion-mision {
+            height: 100%;
+        }
+        .seccion-mision h2 {
+            font-size: 25px;
+        }
+        .seccion-mision .contenedor-cartas {
+            display: flex;
+            align-items: start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            height: auto;
+        }
+        .seccion-mision .contenedor-cartas .carta {
+            min-width: 100%;
+            height: 200px;
+        }
+        .seccion-mision .contenedor-cartas .carta p{
+            font-size: 12px;
+        }
+        .seccion-mision .carta {
+            min-height: auto;
+        }
+        /*Seccion Vision*/
+        .seccion-vision{
+            margin-top: 40px;
+            margin-bottom: 50px;
+            height: auto;
+        }
+        .seccion-vision h2{
+            font-size: 25px;
+        }
+        .seccion-vision p{
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .imagenVision img{
+            height: 320px;
+        }
+        .txt-menu {
+            font-size: 20px;
+        }
+}
+
+/* Tercera Seccion */
+/* Medio (para retratos de tabletas y teléfonos móviles grandes) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Tercera Seccion */
+    .contenedor-tercera-seccion {
+        height: auto;
+        text-align: center;
+        padding: 30px;
+        color: white;
+    }
+    .contenedor-tercera-seccion h2 {
+        font-size: 40px;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion h1{
+        font-size: 40px;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion p{
+        font-size: 16px;
+    }
+}
+/* Medio pequeño (para teléfonos móviles grandes) */
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .contenedor-tercera-seccion {
+        height: auto;
+        text-align: center;
+        padding: 30px;
+        color: white;
+    }
+    .contenedor-tercera-seccion h2 {
+        font-size: 35px;
+    }
+    .contenedor-tercera-seccion p {
+        font-size: 16px;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion h1{
+        font-size: 35px;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion p{
+        font-size: 12px;
+    }
+}
+/* Pequeño (para teléfonos móviles pequeños) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .contenedor-tercera-seccion h2 {
+        font-size: 25px;
+    }
+    .contenedor-tercera-seccion p {
+        font-size: 14px;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion h1{
+        font-size: 30px;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion p{
+        font-size: 10px;
+    }
+}
+/* Extra pequeño (para teléfonos móviles muy pequeños) */
+@media only screen and (max-width: 320px) {
+    .contenedor-tercera-seccion h2 {
+        font-size: 22px;
+    }
+    .contenedor-tercera-seccion p {
+        font-size: 12px;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #FD5D05;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion h1{
+        font-size: 35px;
+    }
+    .contenedor-cartas-terceraS .mini-terceraseccion p{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+/* Cuarta Seccion */
+/* Medio grande (para tabletas en paisaje y algunos ordenadores de escritorio) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .seccion-Img-Central{
+        margin-top: 80px;
+        margin-bottom: 130px;
+    }
+    .seccion-Img-Central h2{
+        font-size: 50px;
+    }
+    .seccion-Img-Central .card{
+        border-bottom: 1px solid white;
+        border-radius: 0%;
+    }
+    .seccion-Img-Central .t1, .t2{
+        text-align: right;
+        position: absolute;
+        bottom: 0%;
+    }
+    .seccion-Img-Central .t3, .t4{
+        text-align: left;
+        position: absolute;
+        bottom: 0%;
+    }
+    .seccion-Img-Central .card-body{
+        align-items: center;
+        height: 150px;
+    }
+    .seccion-Img-Central .middle-col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seccion-Img-Central .middle-col img{
+        width: 500px;
+        height: auto;
+    }
+    .seccion-HMV button {
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+}
+/* Medio (para retratos de tabletas y teléfonos móviles grandes) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .seccion-Img-Central{
+        margin-top: 80px;
+        margin-bottom: 130px;
+    }
+    .seccion-Img-Central h2{
+        font-size: 50px;
+    }
+    .seccion-Img-Central .card{
+        border-bottom: 1px solid white;
+        border-radius: 0%;
+    }
+    .seccion-Img-Central .t1, .t2{
+        text-align: right;
+        position: absolute;
+        bottom: 0%;
+    }
+    .seccion-Img-Central .t3, .t4{
+        text-align: left;
+        position: absolute;
+        bottom: 0%;
+    }
+    .seccion-Img-Central .card-body{
+        align-items: center;
+        height: 150px;
+    }
+    .seccion-Img-Central .middle-col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seccion-Img-Central .middle-col img{
+        width: 400px;
+        height: auto;
+    }
+    .seccion-HMV button {
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+}
+/* Medio (para retratos de tabletas y teléfonos móviles grandes) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .seccion-Img-Central .middle-col img{
+        width: 100%;
+        height: auto;
+    }
+}
+/* Extra pequeño (para teléfonos móviles muy pequeños) */
+@media only screen and (max-width: 320px) {
+    .seccion-Img-Central{
+        margin-top: 80px;
+        margin-bottom: 130px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+    }
+    .seccion-Img-Central .col-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .seccion-Img-Central h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .seccion-Img-Central .card{
+        border-bottom: 1px solid white;
+        border-radius: 0%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .seccion-Img-Central .t1, .t2{
+        text-align: center;
+        position: absolute;
+        bottom: 0%;
+        padding: 0;
+        font-size: 14px;
+    }
+    .seccion-Img-Central .t3, .t4{
+        text-align: center;
+        position: absolute;
+        bottom: 0%;
+        padding: 0;
+        font-size: 14px;
+    }
+    .seccion-Img-Central .card-body{
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seccion-Img-Central .middle-col img{
+        width: 250px;
+        height: auto;
+    }
+}
+
+/* Seccion Valores */
+/* Medio (para retratos de tabletas y teléfonos móviles grandes) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .seccion-valores h2{
+        font-size: 60px;
+    }
+    .seccion-valores .card{
+        border-radius: 25px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccion-valores .imagen-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .seccion-valores .imagen-puesta{
+        width: 120px;
+        height: 100%;
+    }
+    .seccion-valores .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+    }
+    .seccion-valores p{
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+/* Medio pequeño (para teléfonos móviles grandes) */
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .seccion-valores h2{
+        font-size: 60px;
+    }
+    .seccion-valores .card{
+        border-radius: 25px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccion-valores .imagen-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .seccion-valores .imagen-puesta{
+        width: 120px;
+        height: 100%;
+    }
+    .seccion-valores .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+    }
+    .seccion-valores p{
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+/* Pequeño (para teléfonos móviles pequeños) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .seccion-valores h2{
+        font-size: 60px;
+    }
+    .seccion-valores .card{
+        border-radius: 25px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccion-valores .imagen-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .seccion-valores .imagen-puesta{
+        width: 120px;
+        height: 100%;
+    }
+    .seccion-valores .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+    }
+    .seccion-valores p{
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+/* Extra pequeño (para teléfonos móviles muy pequeños) */
+@media only screen and (max-width: 320px) {
+    .seccion-valores h2{
+        font-size: 40px;
+    }
+    .seccion-valores .card{
+        border-radius: 25px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccion-valores .imagen-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .seccion-valores .imagen-puesta{
+        width: 120px;
+        height: 100%;
+    }
+    .seccion-valores .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+    }
+    .seccion-valores p{
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+/* IDI */
+/* Medio (para retratos de tabletas y teléfonos móviles grandes) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .seccion-TSTI{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .seccion-TSTI .container{
+        outline: 1px solid white;
+        padding-top: 1px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+    .seccion-TSTI h2{
+        font-family: "Antonio";
+        font-size: 70px;
+        color: #FD5D05;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+    .subti {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .parrafo{
+        text-align: right;
+    }
+    .seccion-TSTI p{
+        color: white;
+        text-align: center;
+    }
+    .seccion-TSTI .row{
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .seccion-TSTI .imagenTSTI{
+        text-align: center;
+    }
+    .seccion-TSTI .imagenTSTI img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+/* Medio pequeño (para teléfonos móviles grandes) */
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .seccion-TSTI{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .seccion-TSTI .container{
+        outline: 1px solid white;
+        padding-top: 1px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+    .seccion-TSTI h2{
+        font-family: "Antonio";
+        font-size: 70px;
+        color: #FD5D05;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+    .subti {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .parrafo{
+        text-align: right;
+    }
+    .seccion-TSTI p{
+        color: white;
+        text-align: center;
+    }
+    .seccion-TSTI .row{
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .seccion-TSTI .imagenTSTI{
+        text-align: center;
+    }
+    .seccion-TSTI .imagenTSTI img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+/* Pequeño (para teléfonos móviles pequeños) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .seccion-TSTI{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .seccion-TSTI .container{
+        outline: 1px solid white;
+        padding-top: 1px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+    .seccion-TSTI h2{
+        font-family: "Antonio";
+        font-size: 70px;
+        color: #FD5D05;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+    .subti {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .parrafo{
+        text-align: right;
+    }
+    .seccion-TSTI p{
+        color: white;
+        text-align: center;
+    }
+    .seccion-TSTI .row{
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .seccion-TSTI .imagenTSTI{
+        text-align: center;
+    }
+    .seccion-TSTI .imagenTSTI img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+/* Extra pequeño (para teléfonos móviles muy pequeños) */
+@media only screen and (max-width: 320px) {
+    .seccion-TSTI{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .seccion-TSTI .container{
+        outline: 1px solid white;
+        padding-top: 1px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+    .seccion-TSTI h2{
+        font-family: "Antonio";
+        font-size: 70px;
+        color: #FD5D05;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+    .subti {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .parrafo{
+        text-align: right;
+    }
+    .seccion-TSTI p{
+        color: white;
+        text-align: center;
+    }
+    .seccion-TSTI .row{
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .seccion-TSTI .imagenTSTI{
+        text-align: center;
+    }
+    .seccion-TSTI .imagenTSTI img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}

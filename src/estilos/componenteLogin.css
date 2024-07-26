@@ -1,0 +1,246 @@
+/* Seccion Encabezado */
+.seccionEncabezadoSoluciones {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    z-index: 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+.seccionEncabezadoSoluciones::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/imagen10.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(20%);
+    -webkit-filter: brightness(20%);
+}
+.seccionEncabezadoSoluciones h3 {
+    font-family: "Antonio";
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.seccionEncabezadoSoluciones h1 {
+    font-family: "Antonio";
+    text-transform: uppercase;
+    color: #000424;
+    font-size: 100px;
+    text-align: center;
+}
+.seccionEncabezadoSoluciones p {
+    text-align: center;
+    width: 50%;
+}
+.seccion-contac {
+    height: auto;
+    color: white;
+}
+.seccion-contac p {
+    font-size: 12px;
+}
+.seccion-contac .row {
+    padding: 30px;
+}
+.seccion-contac .info {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: black;
+    outline: 2px solid white;
+}
+input[type=text], select, option, input[type=number], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+input[type=submit]:hover {
+    background-color: rgba(253, 93, 5, 0.9);
+}
+.seccion-contac form a {
+    color:  #000424;
+    text-decoration: none;
+}
+.seccion-contac .botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.botones .minilogin {
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.botones .minilogin h1 {
+    font-family: "Antonio";
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+.botones .minilogin p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+}
+.botones .minilogin button {
+    border: none;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 40%;
+    color: white;
+    background: transparent linear-gradient(246deg, #FFFFFF 0%, #DDD0FC 100%) 0% 0% no-repeat padding-box;
+    color: #000424;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: default;
+}
+
+/* Medias Querys */
+/* Seccion Encabezado */
+/* Pequeño (para teléfonos móviles pequeños) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .seccionEncabezadoSoluciones h3 {
+        font-size: 40px !important;
+    }
+    .seccionEncabezadoSoluciones h1 {
+        font-size: 70px !important;
+    }
+    .seccionEncabezadoSoluciones p {
+        text-align: center;
+        width: 50%;
+    }
+}
+/* Extra pequeño (para teléfonos móviles muy pequeños) */
+@media only screen and (max-width: 320px) {
+    .seccionEncabezadoSoluciones h3 {
+        font-size: 40px !important;
+    }
+    .seccionEncabezadoSoluciones h1 {
+        font-size: 50px !important;
+    }
+    .seccionEncabezadoSoluciones p {
+        text-align: center;
+        width: 80% !important;
+    }
+}
+
+/* Seccion Contacto */
+/* Medio (para retratos de tabletas y teléfonos móviles grandes) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .botones .minilogin h1 {
+        font-size: 30px;
+    }
+    .botones .minilogin p {
+        font-size: 14px;
+    }
+    .botones .minilogin button {
+        font-size: 16px;
+    }
+}
+/* Medio pequeño (para teléfonos móviles grandes) */
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .botones .minilogin {
+        height: 250px;
+        padding: 20px 10px;
+    }
+    .botones .minilogin h1 {
+        font-size: 25px;
+    }
+    .botones .minilogin p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .botones .minilogin button {
+        font-size: 14px;
+        text-align: center;
+        width: auto;
+    }
+}
+/* Pequeño (para teléfonos móviles pequeños) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .botones .minilogin {
+        width: 100%;
+        height: 250px;
+        padding: 20px 10px;
+    }
+    .seccion-contac .info {
+        margin-bottom: 30px;
+    }
+}
+/* Extra pequeño (para teléfonos móviles muy pequeños) */
+@media only screen and (max-width: 320px) {
+    .botones .minilogin {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .seccion-contac .info {
+        margin-bottom: 25px;
+    }
+    .botones .minilogin h1 {
+        font-size: 18px;
+    }
+    .botones .minilogin p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .botones .minilogin button {
+        font-size: 12px;
+        text-align: center;
+        width: auto;
+    }
+}
