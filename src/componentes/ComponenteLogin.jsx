@@ -34,7 +34,7 @@ function ComponenteLogin() {
                 const encodedAsunto = encodeURI(asunto);
                 const emailBody = `Nombres: ${nombres}\nApellidos: ${apellidos}\nEmail: ${email}\nTeléfono: ${telefono}\nEmpresa: ${empresa}\nCargo: ${cargo}\n¿Cómo conoció Red Dinámica?: ${conocimiento}\nProducto de Interés: ${producto}\nMensaje: ${mensaje}\nAceptación de política: Si`;
                 const encodedEmailBody = encodeURI(emailBody);
-                const correo = "ventas@flammas.com"
+                const correo = "ventas@reddinamica.com"
                 const gmailUrl = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${correo}&su=${encodedAsunto}&body=${encodedEmailBody}`;
                 window.open(gmailUrl, '_blank');
                 setTimeout(() => form.reset(), 1000);

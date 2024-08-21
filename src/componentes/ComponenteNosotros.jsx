@@ -151,7 +151,7 @@ function ComponenteNosotrosFlammas () {
                     <button className="btn boton-oscuro btn-lg btn-full-width"><h2 className="txt-menu">Nuestra Historia</h2></button>
                     <div className="content mt-3">
                         <ComponenteSobreFlammas 
-                            imagen = "82"
+                            imagen = "33"
                             titulo = "SOBRE RED DINÁMICA:"
                             texto = "Comenzamos en el año 2004 primero con el nombre de Artica. Nuestra primera oficina era aproximadamente del mismo tamaño que un garaje californiano. El proyecto original se publicó bajo licencia de código abierto (GPL2), ya que originalmente surgió como un proyecto personal de su CEO y fundador, Sancho Lerena; a partir de entonces ha evolucionado, transformándose en una suite de monitorización para empresas, traspasando fronteras e idiomas y ofreciendo una de las soluciones más completas del mercado."
                         />
@@ -185,7 +185,7 @@ function ComponenteNosotrosFlammas () {
                                 <h2 className="text-center">NUESTRA VISIÓN</h2>
                             </div>
                             <ComponenteVision
-                                imagen="75"
+                                imagen="32"
                                 texto="Creemos en el crecimiento sostenido. No tenemos prisa, hemos venido para quedarnos. Nuestra relación con clientes y empleados siempre es a largo plazo. Sabemos que el mercado actual está maduro y se renueva constantemente, cambiando las reglas del juego."
                                 texto2="Aprendemos, nos adaptamos y crecemos conforme lo hacen nuestros clientes. Nuestra visión es ser los proveedores de tecnología de servicios clave y estar presentes en empresas de todos los sectores a nivel mundial."
                             />
@@ -232,7 +232,7 @@ function ComponenteNosotrosFlammas () {
                     texto2 = "Quién mejor que el fabricante para asegurarse del éxito de un proyecto."
                     texto3 = "Si no estamos lo suficientemente cerca, podemos colaborar con un partner que conozca."
                     texto4 = "Precios muy competitivos."
-                    imagen = "74"
+                    imagen = "33"
                 />
             </section>
             {/* Seccion Valores */}
@@ -243,23 +243,23 @@ function ComponenteNosotrosFlammas () {
                 <div className="container">
                     <div className="row justify-content-center">
                         <ComponenteValores
-                            imagen = "76"
+                            imagen = "33"
                             texto = "Innovar como forma de ver la vida."
                         />
                         <ComponenteValores
-                            imagen = "77"
+                            imagen = "33"
                             texto = "Cuidar y escuchar a nuestros clientes, sobre todo si son críticos."
                         />
                         <ComponenteValores
-                            imagen = "78"
+                            imagen = "33"
                             texto = "Ofrecer el mejor soporte técnico a nuestros clientes."
                         />
                         <ComponenteValores
-                            imagen = "79"
+                            imagen = "33"
                             texto = "Seguir aprendiendo siempre, incluso de lo inesperado."
                         />
                         <ComponenteValores
-                            imagen = "80"
+                            imagen = "33"
                             texto = "Mejora continua y autocrítica constante."
                         />
                     </div>
@@ -269,7 +269,7 @@ function ComponenteNosotrosFlammas () {
                 titulo="I+D+i"
                 subtitulo="Investigación + Desarrollo + Innovación"
                 texto="Desde sus orígenes Red Dinámica siempre se ha caracterizado por ir más allá de lo establecido. Siempre hemos encontrado soluciones diferentes a los problemas nuevos y a los problemas de siempre. Nuestra filosofía de empresa de I+D+i nos acompaña desde que ya en 2007 lideramos un consorcio Europeo que combinaba seguridad y monitorización."
-                imagen="81"
+                imagen="33"
             />
             <MiniComponenteQuintaSeccion 
                 titulo = "+500 INTEGRACIONES:"

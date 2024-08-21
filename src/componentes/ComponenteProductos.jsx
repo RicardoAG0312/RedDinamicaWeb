@@ -62,12 +62,12 @@ function ComponenteProductos () {
                 <MiniComponenteProductosConImagenes 
                     titulo = "Dashboards"
                     texto = "Red Dinámica dispone de una completa API para poder integrar tus procesos de negocio, tanto en la gestión de configuraciones, como notificaciones, procesos de provisión, procesos de inventariado, CMDB y otros muchos. Clientes como Rakuten utilizan nuestra API para agilizar sus procesos internos. Consulta el alcance de la API en nuestra documentación. Nuestra API está en constante evolución, pero siempre conservando la compatibilidad hacia atrás para que cualquier integración ya realizada siga funcionando."
-                    imagen = "dashboard"
+                    imagen = "44"
                 />
                 <MiniComponenteProductosConImagenes 
                     titulo = "Informes"
                     texto = "Red Dinámica dispone de una completa API para poder integrar tus procesos de negocio, tanto en la gestión de configuraciones, como notificaciones, procesos de provisión, procesos de inventariado, CMDB y otros muchos. Clientes como Rakuten utilizan nuestra API para agilizar sus procesos internos. Consulta el alcance de la API en nuestra documentación. Nuestra API está en constante evolución, pero siempre conservando la compatibilidad hacia atrás para que cualquier integración ya realizada siga funcionando. Red Dinámica dispone de una completa API para poder integrar tus procesos de negocio, tanto en la gestión de configuraciones integrar tus procesos de negocio, tanto en la gestión de configuraciones, tanto en la gestión de configuraciones"
-                    imagen = "report"
+                    imagen = "43"
                 />
             </section>
             <MiniComponenteQuintaSeccion 

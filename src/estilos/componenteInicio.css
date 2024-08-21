@@ -31,7 +31,7 @@ body {
 }
 .seccion-encabezado::before {
     content: "";
-    background-image: url("../images/IMAGEN-FONDO-PRINCIPAL.jpeg");
+    background-image: url("../images/52.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,7 +245,7 @@ video {
 }
 
 .seccion-tercera .contenedor-info div:nth-child(3) {
-    background-image: url("../images/imagen7.png");
+    background-image: url("../images/22.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,7 +273,7 @@ video {
 }
 .seccion-cuarta .row .info::before {
     content: "";
-    background-image: url("../images/IMAGEN-FONDO-PRINCIPAL.jpeg");
+    background-image: url("../images/52.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -553,7 +553,7 @@ video {
 }
 .seccion-sexta::before {
     content: "";
-    background-image: url("../images/imagen9.png");
+    background-image: url("../images/29.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

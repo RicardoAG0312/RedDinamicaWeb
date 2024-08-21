@@ -75,13 +75,13 @@ function App() {
                             <img src={LogoRedDinamica} alt="Logo Red Dinámica" />
                             <p> Av. cra. 45 N° 108A-50 Sede Bosch piso 6, Bogota, Colombia </p>
                             <div>
-                                <a href="https://www.linkedin.com/company/flammas/?viewAsMember=true" target='_blank' rel='noreferrer'>
+                                {/* <a href="https://www.linkedin.com/company/flammas/?viewAsMember=true" target='_blank' rel='noreferrer'>
                                     <i className="bi bi-linkedin"></i>
-                                </a>
+                                </a> */}
                                 {/* <a href="https://wa.me/51987654321" target='_blank' rel='noreferrer'>
                                     <i className="bi bi-whatsapp"></i>
                                 </a> */}
-                                <a href="mailto=ventas@flammas.com" target='_blank' rel='noreferrer'>
+                                <a href="mailto=ventas@reddinamica.com" target='_blank' rel='noreferrer'>
                                     <i className="bi bi-envelope"></i>
                                 </a>    
                             </div>

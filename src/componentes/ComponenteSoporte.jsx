@@ -48,7 +48,7 @@ function ComponenteInfojhoanIzquierdaSoluciones ({titulo, texto, imagen, imagen2
                         <img src={require(`../images/${imagen}.png`)} alt="Imagen" className="imagen" />
                         <div className='correo'>
                             <h3>ENVÍENOS UN MENSAJE</h3>
-                            <p>ventas@flammas.com</p>
+                            <p>ventas@reddinamica.com</p>
                         </div>
                     </div>
                     <div>
@@ -82,7 +82,7 @@ export function ComponenteSoporteProfesional () {
                 const encodedAsunto = encodeURI(asunto);
                 const emailBody = `Nombres: ${nombres}\nApellidos: ${apellidos}\nEmail: ${email}\nEmpresa: ${empresa}\nPaís: ${país}\nMensaje: ${mensaje}`;
                 const encodedEmailBody = encodeURI(emailBody);
-                const correo = "ventas@flammas.com"
+                const correo = "ventas@reddinamica.com"
                 const gmailUrl = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${correo}&su=${encodedAsunto}&body=${encodedEmailBody}`;
                 window.open(gmailUrl, '_blank');
                 setTimeout(() => form.reset(), 1000);
@@ -149,31 +149,31 @@ export function ComponenteSoporteProfesional () {
                 </div>
                 <section className="container-fluid seccion-viñetas-mart">
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "96"
+                        nombreImagen = "33"
                         texto = "Extensiones de soporte 24×7 sobre el contrato de soporte estándar."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "97"
+                        nombreImagen = "33"
                         texto = "Formación a medida, presencial o remota. Disponemos de varios niveles de certificación."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "98"
+                        nombreImagen = "33"
                         texto = "Desarrollo de funcionalidades a medida, públicas (que se incorporan a nuestro roadmap) o privadas."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "99"
+                        nombreImagen = "33"
                         texto = "Outsourcing de personal, completo o parcial. Remoto o presencial."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "100"
+                        nombreImagen = "33"
                         texto = "Desarrollo de integraciones a medida (plugins) para integrar la monitorización en aplicaciones propias o ampliar la monitorización de nuestros plugins actuales."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "102"
+                        nombreImagen = "33"
                         texto = "Proyectos por bolsas de horas para intervenciones puntuales (p.e: migraciones, integraciones, actualizaciones, despliegues de configuración)"
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "103"
+                        nombreImagen = "33"
                         texto = "Proyectos de despliegue completos llave en mano. Desde la consultoría de análisis hasta la coordinación de equipos propios y de terceros: jefe de proyecto, consultor especialista, desarrolladores e incluso diseñadores gráficos."
                     />
                 </section>
@@ -184,27 +184,27 @@ export function ComponenteSoporteProfesional () {
                 </div>
                 <section className="container-fluid seccion-viñetas-urquia">
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "88"
+                    nombreImagen = "33"
                     texto = "Colaboración en la implantación con personal técnico integrado en sus equipos."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "89"
+                    nombreImagen = "33"
                     texto = "Jefatura externa de proyectos de implantación."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "90"
+                    nombreImagen = "33"
                     texto = "Formación de equipos completos de operación."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "91"
+                    nombreImagen = "33"
                     texto = "Ayuda en la puesta en marcha de soluciones SaaS propias."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "92"
+                    nombreImagen = "33"
                     texto = "Creación personalizada de productos OEM."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "93"
+                    nombreImagen = "33"
                     texto = "Ingeniería de monitorización a medida."
                 />
                 </section>
@@ -212,8 +212,8 @@ export function ComponenteSoporteProfesional () {
             <ComponenteInfojhoanIzquierdaSoluciones 
                 titulo = "¡PONTE EN CONTACTO!"
                 texto = "Nos encanta saber de ti. Nuestro equipo está siempre aquí para apoyarle"
-                imagen = "94"
-                imagen2 ="95"
+                imagen = "33"
+                imagen2 ="33"
             />
             <MiniComponenteQuintaSeccion 
                 titulo = "+500 INTEGRACIONES:"
@@ -241,7 +241,7 @@ export function ComponenteSoporteTecnico () {
                 const encodedAsunto = encodeURI(asunto);
                 const emailBody = `Nombres: ${nombres}\nApellidos: ${apellidos}\nEmail: ${email}\nEmpresa: ${empresa}\nPaís: ${país}\nMensaje: ${mensaje}`;
                 const encodedEmailBody = encodeURI(emailBody);
-                const correo = "ventas@flammas.com"
+                const correo = "ventas@reddinamica.com"
                 const gmailUrl = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${correo}&su=${encodedAsunto}&body=${encodedEmailBody}`;
                 window.open(gmailUrl, '_blank');
                 setTimeout(() => form.reset(), 1000);
@@ -306,7 +306,7 @@ export function ComponenteSoporteTecnico () {
         texto="El objetivo principal del servicio de soporte técnico es brindar soporte para ayudar a resolver cualquier problema relacionado con la instalación, funcionamiento y uso de Red Dinámica."
         texto1="El canal de soporte principal disponible para todos los clientes de soporte es nuestro Sistema de soporte, que garantiza la mensajería en línea para una comunicación rápida y fácil entre los clientes y nuestros especialistas técnicos. Damos soporte en inglés y español:"
         texto2="Los clientes con niveles de soporte avanzados pueden acceder a los servicios de soporte por teléfono, llamando a números dedicados. El soporte 24/7 también está disponible para niveles de soporte avanzado."
-        imagen="83"
+        imagen="33"
         />
             <section className='container-fluid seccion-jhoan'>
                 <div>
@@ -314,22 +314,22 @@ export function ComponenteSoporteTecnico () {
                 </div>
                 <section className="container-fluid seccion-viñetas-jhoan">
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "84"
+                    nombreImagen = "33"
                     titulo = "Rápido y eficiente"
                     texto = "Soporte ofrecido por el equipo de ingeniería de Red Dinámica."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "85"
+                    nombreImagen = "33"
                     titulo = "Soporte integral"
                     texto = "Ofrecemos soporte opcional 24/7 para entornos críticos."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "86"
+                    nombreImagen = "33"
                     titulo = "SLA controlado"
                     texto = "Nuestros procedimientos de soporte incluyen una estricto monitorización de SLA."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "87"
+                    nombreImagen = "33"
                     titulo = "Servicio confiable"
                     texto = "Nuestro soporte es el activo mejor valorado de nuestra plataforma."
                 />

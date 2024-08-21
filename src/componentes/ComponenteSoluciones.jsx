@@ -148,7 +148,7 @@ function ComponenteViñetaAnimada ({ nombreImagen, titulo, texto }) {
 function MiniComponentesSegundaSeccion ({imagen, titulo, texto}) {
     return (
         <div className='carta'>
-            <img src={require(`../images/${imagen}.svg`)} alt="Imagen" />
+            <img src={require(`../images/${imagen}.png`)} alt="Imagen" />
             <h1> {titulo} </h1>
             <p> {texto} </p>
         </div>
@@ -172,7 +172,7 @@ export function ComponenteSolucionesMonitorizacion () {
             <ComponenteInfoIzquierdaSoluciones 
                 titulo = "Desde lo más básico a lo inimaginable"
                 texto = "Ancho de banda, pérdida de paquetes, latencia, disponibilidad, número de conexiones. Da igual el origen: routers, AP, switches, firewalls, servidores, estaciones de trabajo, IoT. Si tiene IP, Red Dinámica puede coger el dato. No estamos limitados sólo a SNMP o a recogida de datos con agentes."
-                imagen = "41"
+                imagen = "33"
                 id = "none"
             />
             <ComponenteInfoDerechoSoluciones 
@@ -195,12 +195,12 @@ export function ComponenteSolucionesMonitorizacion () {
             <ComponenteInfoIzquierdaSoluciones
                 titulo = "Informes y cuadros de mando"
                 texto = "Red Dinámica recoge todo tipo de datos y te ofrece un editor de informes para que puedas generarlos de manera personalizada: top N, gráficas detalladas a cualquier escala de tiempo, informes SLA, informes de disponibilidad, cronogramas y decenas más."
-                imagen = "45"
+                imagen = "37"
             />
             <ComponenteInfoDerechoSoluciones 
                 titulo = "Gestión de configuraciones"
                 texto = "Red Dinámica puede recoger la configuraciones de tus equipos, detectar cuando cambian (y donde) y recuperar backup de dichas configuraciones. También podrá desplegar cambios masivamente en decenas de equipos (como por ejemplo añadir una VLAN)."
-                imagen = "46"
+                imagen = "32"
             />
             <header className="funcionalidades"> Funcionalidades Avanzadas </header>
             <section className="container-fluid seccionFuncionAvanzadas">
@@ -215,12 +215,12 @@ export function ComponenteSolucionesMonitorizacion () {
                     texto = "Conoce exactamente lo que te va a costar, sin sorpresas, sin ampliaciones, sin módulos adicionales. Planifica el crecimiento de su entorno con exactitud desde el día uno. En Red Dinámica todo incluido, significa eso, todo incluido en el coste inicial de la licencia."
                 />
                 <ComponenteFuncionalidadAvanzada 
-                    imagen = "27"
+                    imagen = "24"
                     titulo = "Monitorización de seguridad"
                     texto = "Controla en todo momento de qué versiones, modelos e IP dispones. No sólo de equipos de red como switches, routers, también firewalls. Establece alertas si se usan modelos con vulnerabilidades. Envía los logs de todos tus sistemas a nuestra consola de logs y crea alertas de correlación."
                 />
                 <ComponenteFuncionalidadAvanzada 
-                    imagen = "28"
+                    imagen = "38"
                     titulo = "Inteligencia artificial"
                     texto = "Deja que se configuren solo los umbrales de fallo de manera automática, en base al uso cotidiano. Crea alertas en base al uso proyectado de tus recursos. Genera informes útiles para planificar el uso de tu red."
                 />
@@ -588,18 +588,18 @@ export function ComponenteSolucionesCloud () {
                 titulo="Monitorización centralizada de entornos híbridos"
                 texto="Supervisa todos los detalles de tus entornos allí donde estén, sin importar el proveedor de servicios, tecnología de virtualización o API de abstracción."
                 texto1="Unifica todo el control de tus activos en un único lugar: la consola de Red Dinámica. Podrás gestionar desde cien elementos a varios cientos de miles desde múltiples orígenes, escalando de forma progresiva y dinámica."
-                imagen="40"
+                imagen="24"
             />
             <ComponentetxtIzquierdaSoluciones
                 titulo="Entornos Cloud"
                 texto="Haciendo uso de APIs remotas y de manera centralizada somos capaces de unificar los datos de diferentes proveedores ofreciendo un paraguas de unificación de información (incluyendo costes) que permiten comparar y reportar datos de cualquier tipo de proveedor."
-                imagen="47"
+                imagen="25"
             />
             <ComponentetxtDerechoSoluciones
                 titulo="Toma el control de los datos de tus sistemas"
                 texto="Hace años, era mucho más sencillo obtener información de tu infraestructura. Hoy en día, es mucho más complicado ante la variedad de arquitecturas on-premise de contenedores dinámicos, mezclada con entornos cloud y SaaS externos de todo tipo."
                 texto1="Controla el crecimiento y uso de todos tus sistemas. Gracias a nuestros agentes, sondas remotas o uso de APIs de acceso a la infraestructura cloud, podrá sacar el máximo partido a sus recursos, ahorrar y estimar futuras inversiones."
-                imagen="48"
+                imagen="26"
             />
             <section className="container-fluid bg-white contenedorFondoBlanco">
                 <div className="row">
@@ -659,57 +659,57 @@ export function ComponenteSolucionesCloud () {
             </section>
             <section className="container-fluid seccion-viñetas-animadas">
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "58"
+                    nombreImagen = "49"
                     titulo = "INVENTARIO Y CONTROL DE ACTIVOS HARDWARE Y SOFTWARE"
                     texto = "Supervisa y gestiona todos los dispositivos y software en tu red. Lleva un inventario actualizado de tus activos tecnológicos y usa la autenticación para bloquear lo no autorizado. Además, supervisa y gestiona el software en tu red, solo permite lo autorizado y bloquea lo que no lo es. Tu seguridad lo requiere."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "59"
+                    nombreImagen = "50"
                     titulo = "Inventario y Control de Dispositivos"
                     texto = "En Red Dinámica, cuidamos la seguridad de tus sistemas desde la base, esto significa identificar y gestionar tus dispositivos de hardware para que solo los autorizados tengan acceso, bloqueando los no deseados. Mantener un inventario adecuado minimiza riesgos internos, organiza tu entorno y brinda claridad a tu red."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "60"
+                    nombreImagen = "54"
                     titulo = "Gestión de Vulnerabilidades"
                     texto = "Analiza tus activos de forma continua para detectar vulnerabilidades potenciales y soluciónalas antes de que se conviertan en un problema. Refuerza la seguridad de tu red asegurándote de que el software y los sistemas operativos en tu organización estén siempre actualizados con las últimas medidas de seguridad."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "61"
+                    nombreImagen = "56"
                     titulo = "Uso Controlado de Privilegios Administrativos"
                     texto = "Supervisa de cerca los controles de acceso y el comportamiento de los usuarios con cuentas privilegiadas para evitar cualquier acceso no autorizado a sistemas críticos. Asegúrate de que solo las personas autorizadas tengan privilegios elevados para evitar cualquier mal uso de los privilegios administrativos."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "62"
+                    nombreImagen = "13"
                     titulo = "Configuración Segura de Hardware y Software"
                     texto = "Establece y mantiene configuraciones de seguridad basadas en los estándares aprobados por tu organización. Crea un sistema de gestión de configuraciones riguroso que detecte y alerte sobre cualquier configuración incorrecta, y establece un proceso de control de cambios para evitar que los atacantes se aprovechen de servicios y configuraciones vulnerables."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "63"
+                    nombreImagen = "14"
                     titulo = "Mantenimiento, Supervisión y Análisis de Logs de Auditoría"
                     texto = "Recopila, administra y analiza los logs de auditoría de eventos para identificar posibles anomalías. Mantén registros detallados para comprender a fondo los ataques y poder responder de manera eficaz a los incidentes de seguridad."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "64"
+                    nombreImagen = "14"
                     titulo = "Defensas contra Malware"
                     texto = "Supervisa y controla la instalación y ejecución de código malicioso en varios puntos de tu empresa para prevenir ataques. Configura y utiliza software antimalware y aprovecha la automatización para garantizar actualizaciones rápidas de defensas y una acción correctiva ágil en caso de ataques."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "65"
+                    nombreImagen = "14"
                     titulo = "Protección del Correo Electrónico y los Navegadores Web"
                     texto = "Protege y administra tus navegadores web y sistemas de correo electrónico contra amenazas en línea para reducir tu superficie de ataque. Desactiva navegadores y complementos de correo electrónico no autorizados y asegura que los usuarios solo accedan a sitios web de confianza mediante filtros de URL basados en la red."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "66"
+                    nombreImagen = "14"
                     titulo = "Capacidades de Recuperación de Datos"
                     texto = "Establece procesos y herramientas para asegurar que la información crítica de tu organización esté respaldada adecuadamente. Asegúrate de contar con un sistema de recuperación de datos confiable para restaurar la información en caso de ataques que pongan en peligro los datos críticos."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "67"
+                    nombreImagen = "14"
                     titulo = "Defensa de Límites y Protección de Datos"
                     texto = "Identifica y separa los datos sensibles, y establece una serie de procesos que incluyan la codificación, planes de protección contra la infiltración de datos y técnicas de prevención de pérdida de datos."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "68"
+                    nombreImagen = "14"
                     titulo = "Supervisión y Control de Cuentas"
                     texto = "Supervisa de cerca todo el ciclo de vida de tus sistemas y cuentas de aplicaciones, desde su creación hasta su eliminación, pasando por su uso e inactividad. Esta gestión activa previene que los atacantes aprovechen cuentas de usuarios legítimos pero inactivos para fines maliciosos."
                 />
@@ -721,12 +721,12 @@ export function ComponenteSolucionesCloud () {
                 titulo="LA BASE DE DATOS DE VULNERABILIDADES MÁS COMPLETA"
                 texto="Tengas el número de sistemas que tengas, estén donde estén, buscaremos cada pieza de software instalada contrastaremos con la mayor base de datos pública del mundo (CVE, NVD, VulnDB, NVR, MSUG, RHSD) y la contrastaremos con la mayor base de datos del mundo de vulnerabilidades para decirte dónde tienes que actuar."
                 texto1="Establece alertas, crea dashboards e informes técnicos para filtrar por grupos de máquina, tipos de ataque, vector de intrusión, uso de privilegios y otros muchos campos."
-                imagen="70"
+                imagen="31"
             />
             <section className="container-fluid bg-white contenedorIMGTopBot">
                 <div className="row">
                     <div className="col-12 imagen">
-                        <img src={require(`../images/71.png`)} alt="Imagen" />
+                        <img src={require(`../images/44.png`)} alt="Imagen" />
                     </div>
                     <div className=" container-fluid info text-dark">
                         <h2 className="text-center"> <span className="text-dark">NUESTRO</span> ROADMAP <span className="text-dark">DE SEGURIDAD</span></h2>
@@ -745,7 +745,7 @@ export function ComponenteSolucionesCloud () {
             <section className="container-fluid contenedorIMGTopBot">
                 <div className="row">
                     <div className="col-12 imagen">
-                        <img src={require(`../images/73.png`)} alt="Imagen" />
+                        <img src={require(`../images/42.png`)} alt="Imagen" />
                     </div>
                     <div className=" container-fluid info2 text-white">
                         <h2 className="text-center"> <span className="text-white">SEGURIDAD QUE PUEDES</span> VER Y VERIFICAR</h2>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "../estilos/componenteInicio.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import imagen7 from "../images/7.png";
+import imagen7 from "../images/26.png";
 
 export function MiniComponentesSegundaSeccion ({imagen, titulo, texto}) {
     return (
@@ -15,9 +15,7 @@ export function MiniComponentesSegundaSeccion ({imagen, titulo, texto}) {
 function MiniVideos ({imagen, titulo, texto}) {
     return (
         <div className='carta-video'>
-            <video autoPlay preload='auto' loop muted>
-                <source src={require(`../images/${imagen}.mp4`)} type='video/mp4' />
-            </video>
+            <img src={require(`../images/${imagen}.png`)}  alt="Imagen" />
             <h1> {titulo} </h1>
             <p> {texto} </p>
         </div>
@@ -63,15 +61,15 @@ function ComponenteInicio() {
                             <h2 > MONITORIZACIÓN Y OBSERVABILIDAD </h2>
                             <p> Una Suite de Supervisión Integral que Incluye Auditoría, Monitorización, Gestión de Configuración, Control Remoto, ITSM, Inventario y Seguridad del Sistema. </p>
                         </div>
-                        {/* <div className='btn btn-danger'>
-                            <a className='botonInfoFlammas' href={process.env.PUBLIC_URL + "/Datasheet_Flammas.pdf"} download={"MARCUS-Hoja-de-Datos.pdf"} rel="noopener noreferrer"> Hoja de Datos </a> 
-                        </div> */}
+                        <div className='btn btn-danger'>
+                            <a className='botonInfoFlammas' href={process.env.PUBLIC_URL + "/Datasheet_de_red_dinámica.pdf"} download={"REDDINAMICA-Hoja-de-Datos.pdf"} rel="noopener noreferrer"> Hoja de Datos </a> 
+                        </div>
                     </div>
                     <div className="col-12 col-sm-4 col-xxl-4 segunda-columna">
                         <div className='container-fluid'>
-                            <video autoPlay preload='auto' loop muted>
+                            {/* <video autoPlay preload='auto' loop muted>
                                 <source src={require("../images/flammas web.mp4")} type='video/mp4' />
-                            </video>
+                            </video> */}
                         </div>
                     </div>
                 </div>
@@ -107,7 +105,7 @@ function ComponenteInicio() {
                     </div>
                     <div>
                         <p> Así como el prisma descompone la luz en sus colores individuales, Red Dinámica divide la complejidad de los datos empresariales. Cada componente, ya sea proveniente de proveedores, servicios en la nube o clientes, se analiza con precisión milimétrica. Esto permite una comprensión detallada de cada aspecto, facilitando la identificación de áreas de mejora y optimización. </p>
-                        <div> <a className='botonInfoFlammas' href={process.env.PUBLIC_URL + "/Datasheet_Flammas.pdf"} download={"Datasheet_Flammas.pdf"} rel="noopener noreferrer"> DESCUBRE TODAS SUS FUNCIONALIDADES </a> </div>
+                        <div> <a className='botonInfoFlammas' href={process.env.PUBLIC_URL + "/Datasheet_de_red_dinámica.pdf"} download={"REDDINAMICA-Hoja-de-Datos.pdf"} rel="noopener noreferrer"> DESCUBRE TODAS SUS FUNCIONALIDADES </a> </div>
                     </div>
                     <div>
                         
@@ -124,32 +122,32 @@ function ComponenteInicio() {
                     </div>
                     <div className='col-12 col-sm-8 col-xxl-8 contenedor-cards'>
                         <MiniComponentesCuartaSeccion 
-                            imagen = "8"
+                            imagen = "9"
                             titulo = "Monitorización de redes"
                             texto = "Descubre todos tus equipos de red a través de mapas que muestran la estructura de tu red al detalle."
                         />
                         <MiniComponentesCuartaSeccion 
-                            imagen = "9"
+                            imagen = "10"
                             titulo = "Monitorización UX"
                             texto = "Descubre todos tus equipos de red a través de mapas que muestran la estructura de tu red al detalle."
                         />
                         <MiniComponentesCuartaSeccion 
-                            imagen = "10"
+                            imagen = "11"
                             titulo = "Monitorización Cloud"
                             texto = "Descubre todos tus equipos de red a través de mapas que muestran la estructura de tu red al detalle."
                         />
                         <MiniComponentesCuartaSeccion 
-                            imagen = "11"
+                            imagen = "12"
                             titulo = "Servidores"
                             texto = "Mainframe, IBM-i, Unix, Windows, Android y Linux: nuestro sistema es compatible con diversas plataformas."
                         />
                         <MiniComponentesCuartaSeccion 
-                            imagen = "12"
+                            imagen = "13"
                             titulo = "Aplicaciones"
                             texto = "Soluciones personalizables para casi cualquier caso y fuente de datos antes de afectar a los usuarios."
                         />
                         <MiniComponentesCuartaSeccion 
-                            imagen = "13"
+                            imagen = "14"
                             titulo = "Gestión de logs"
                             texto = "Recoge y almacena registros de todo tipo (incluyendo eventos de Windows) para búsquedas y alertas eficientes. "
                         />
