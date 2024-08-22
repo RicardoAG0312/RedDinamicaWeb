@@ -58,7 +58,7 @@
 }
 .seccion-sobre-flammas h2 {
     font-family: "Antonio";
-    color: #FD5D05;
+    color: #000424;
     font-size: 60px;
     font-weight: bold;
 }
@@ -107,7 +107,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    outline: 1px solid #FD5D05;
+    outline: 1px solid #000424;
 }
 .seccion-mision .imagen-contenedor {
     width: 100%;
@@ -145,7 +145,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
-    outline: 1px solid #FD5D05;
+    outline: 1px solid #000424;
 }
 .imagenVision img{
     width: 100%;
@@ -332,9 +332,12 @@
     opacity: 0;
     transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
     padding: 0 10px;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
     margin-top: 10px;
+}
+.seccion-HMV .content p {
+    color: black;
 }
 .seccion-HMV .btn-full-width:hover + .content,
 .seccion-HMV .btn-full-width:focus-within + .content,
@@ -364,12 +367,16 @@
     margin: 0;
 }
 .boton-oscuro:hover {
-    background-color: #FD5D05;
+    background-color: white;
+}
+.boton-oscuro:hover h2{
+    color: black;
 }
 .boton-oscuro:focus,
 .boton-oscuro:active,
 .boton-oscuro.active {
-    background-color: #FD5D05;
+    background-color: white;
+    color: black;
 }
 
 /* Medias Querys */
@@ -693,7 +700,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        border-bottom: 1px solid #FD5D05;
+        border-bottom: 1px solid #000424;
     }
     .contenedor-cartas-terceraS .mini-terceraseccion h1{
         font-size: 35px;
@@ -1018,7 +1025,7 @@
     .seccion-TSTI h2{
         font-family: "Antonio";
         font-size: 70px;
-        color: #FD5D05;
+        color: #000424;
         font-weight: bolder;
         margin-bottom: 30px;
     }
@@ -1065,7 +1072,7 @@
     .seccion-TSTI h2{
         font-family: "Antonio";
         font-size: 70px;
-        color: #FD5D05;
+        color: #000424;
         font-weight: bolder;
         margin-bottom: 30px;
     }
@@ -1112,7 +1119,7 @@
     .seccion-TSTI h2{
         font-family: "Antonio";
         font-size: 70px;
-        color: #FD5D05;
+        color: #000424;
         font-weight: bolder;
         margin-bottom: 30px;
     }
@@ -1159,7 +1166,7 @@
     .seccion-TSTI h2{
         font-family: "Antonio";
         font-size: 70px;
-        color: #FD5D05;
+        color: #000424;
         font-weight: bolder;
         margin-bottom: 30px;
     }

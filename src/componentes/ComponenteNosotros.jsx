@@ -172,7 +172,7 @@ function ComponenteNosotrosFlammas () {
                                     texto="Creemos en el enorme potencial de la monitorización para mejorar cualquier organización que apoye su negocio en tecnología."
                                 />
                                 <ComponenteMision
-                                    imagen="25"
+                                    imagen="24"
                                     texto="Queremos ser una alerta temprana, queremos ser aquellos que avisan en el momento exacto antes de que suceda algo imprevisto, queremos ser ese compañero de viaje imprescindible para cualquier aventura y caminar juntos hasta la siguiente meta."
                                 />
                             </div>
@@ -232,7 +232,7 @@ function ComponenteNosotrosFlammas () {
                     texto2 = "Quién mejor que el fabricante para asegurarse del éxito de un proyecto."
                     texto3 = "Si no estamos lo suficientemente cerca, podemos colaborar con un partner que conozca."
                     texto4 = "Precios muy competitivos."
-                    imagen = "33"
+                    imagen = "Web Red Dinámica"
                 />
             </section>
             {/* Seccion Valores */}
@@ -243,23 +243,23 @@ function ComponenteNosotrosFlammas () {
                 <div className="container">
                     <div className="row justify-content-center">
                         <ComponenteValores
-                            imagen = "33"
+                            imagen = "14"
                             texto = "Innovar como forma de ver la vida."
                         />
                         <ComponenteValores
-                            imagen = "33"
+                            imagen = "24"
                             texto = "Cuidar y escuchar a nuestros clientes, sobre todo si son críticos."
                         />
                         <ComponenteValores
-                            imagen = "33"
+                            imagen = "25"
                             texto = "Ofrecer el mejor soporte técnico a nuestros clientes."
                         />
                         <ComponenteValores
-                            imagen = "33"
+                            imagen = "26"
                             texto = "Seguir aprendiendo siempre, incluso de lo inesperado."
                         />
                         <ComponenteValores
-                            imagen = "33"
+                            imagen = "13"
                             texto = "Mejora continua y autocrítica constante."
                         />
                     </div>
@@ -269,7 +269,7 @@ function ComponenteNosotrosFlammas () {
                 titulo="I+D+i"
                 subtitulo="Investigación + Desarrollo + Innovación"
                 texto="Desde sus orígenes Red Dinámica siempre se ha caracterizado por ir más allá de lo establecido. Siempre hemos encontrado soluciones diferentes a los problemas nuevos y a los problemas de siempre. Nuestra filosofía de empresa de I+D+i nos acompaña desde que ya en 2007 lideramos un consorcio Europeo que combinaba seguridad y monitorización."
-                imagen="33"
+                imagen="48"
             />
             <MiniComponenteQuintaSeccion 
                 titulo = "+500 INTEGRACIONES:"

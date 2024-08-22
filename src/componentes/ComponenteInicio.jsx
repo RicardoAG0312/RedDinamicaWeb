@@ -15,7 +15,9 @@ export function MiniComponentesSegundaSeccion ({imagen, titulo, texto}) {
 function MiniVideos ({imagen, titulo, texto}) {
     return (
         <div className='carta-video'>
-            <img src={require(`../images/${imagen}.png`)}  alt="Imagen" />
+            <video autoPlay preload='auto' loop muted>
+                <source src={require(`../images/${imagen}.mp4`)} type='video/mp4' />
+            </video>
             <h1> {titulo} </h1>
             <p> {texto} </p>
         </div>
@@ -67,9 +69,9 @@ function ComponenteInicio() {
                     </div>
                     <div className="col-12 col-sm-4 col-xxl-4 segunda-columna">
                         <div className='container-fluid'>
-                            {/* <video autoPlay preload='auto' loop muted>
-                                <source src={require("../images/flammas web.mp4")} type='video/mp4' />
-                            </video> */}
+                            <video autoPlay preload='auto' loop muted>
+                                <source src={require("../images/video1.mp4")} type='video/mp4' />
+                            </video>
                         </div>
                     </div>
                 </div>
@@ -81,17 +83,17 @@ function ComponenteInicio() {
                 </div>
                 <div className='container contenedor-cartas'>
                     <MiniVideos 
-                        imagen = "1"
+                        imagen = "video2"
                         titulo = "MONITORIZACIÓN INTEGRAL"
                         texto = "Software de monitorización preparado y optimizado para cubrir todas tus necesidades."
                     />
                     <MiniVideos
-                        imagen = "2"
+                        imagen = "video3"
                         titulo = "CONTROL REMOTO"
                         texto = "Un entorno dinámico con acceso remoto a tus servidores o estaciones de trabajo."
                     />
                     <MiniVideos
-                        imagen = "3"
+                        imagen = "video4"
                         titulo = "IT SERVICE MANAGER"
                         texto = "Software de monitorización preparado y optimizado para cubrir todas tus necesidades."
                     />

@@ -51,13 +51,13 @@ function ComponenteInfojhoanIzquierdaSoluciones ({titulo, texto, imagen, imagen2
                             <p>ventas@reddinamica.com</p>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <img src={require(`../images/${imagen2}.png`)} alt="Imagen" className="imagen" />
                         <div className='telefono'>
                             <h3>TELÉFONO</h3>
                             <p>987463783</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
@@ -149,31 +149,31 @@ export function ComponenteSoporteProfesional () {
                 </div>
                 <section className="container-fluid seccion-viñetas-mart">
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "33"
+                        nombreImagen = "9"
                         texto = "Extensiones de soporte 24×7 sobre el contrato de soporte estándar."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "33"
+                        nombreImagen = "10"
                         texto = "Formación a medida, presencial o remota. Disponemos de varios niveles de certificación."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "33"
+                        nombreImagen = "11"
                         texto = "Desarrollo de funcionalidades a medida, públicas (que se incorporan a nuestro roadmap) o privadas."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "33"
+                        nombreImagen = "12"
                         texto = "Outsourcing de personal, completo o parcial. Remoto o presencial."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "33"
+                        nombreImagen = "13"
                         texto = "Desarrollo de integraciones a medida (plugins) para integrar la monitorización en aplicaciones propias o ampliar la monitorización de nuestros plugins actuales."
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "33"
+                        nombreImagen = "14"
                         texto = "Proyectos por bolsas de horas para intervenciones puntuales (p.e: migraciones, integraciones, actualizaciones, despliegues de configuración)"
                     />
                     <ComponenteViñetaAnimada 
-                        nombreImagen = "33"
+                        nombreImagen = "24"
                         texto = "Proyectos de despliegue completos llave en mano. Desde la consultoría de análisis hasta la coordinación de equipos propios y de terceros: jefe de proyecto, consultor especialista, desarrolladores e incluso diseñadores gráficos."
                     />
                 </section>
@@ -184,7 +184,7 @@ export function ComponenteSoporteProfesional () {
                 </div>
                 <section className="container-fluid seccion-viñetas-urquia">
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "32"
                     texto = "Colaboración en la implantación con personal técnico integrado en sus equipos."
                 />
                 <ComponenteViñetaAnimada 
@@ -192,19 +192,19 @@ export function ComponenteSoporteProfesional () {
                     texto = "Jefatura externa de proyectos de implantación."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "34"
                     texto = "Formación de equipos completos de operación."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "37"
                     texto = "Ayuda en la puesta en marcha de soluciones SaaS propias."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "38"
                     texto = "Creación personalizada de productos OEM."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "42"
                     texto = "Ingeniería de monitorización a medida."
                 />
                 </section>
@@ -212,8 +212,8 @@ export function ComponenteSoporteProfesional () {
             <ComponenteInfojhoanIzquierdaSoluciones 
                 titulo = "¡PONTE EN CONTACTO!"
                 texto = "Nos encanta saber de ti. Nuestro equipo está siempre aquí para apoyarle"
-                imagen = "33"
-                imagen2 ="33"
+                imagen = "54"
+                imagen2 ="56"
             />
             <MiniComponenteQuintaSeccion 
                 titulo = "+500 INTEGRACIONES:"
@@ -314,22 +314,22 @@ export function ComponenteSoporteTecnico () {
                 </div>
                 <section className="container-fluid seccion-viñetas-jhoan">
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "9"
                     titulo = "Rápido y eficiente"
                     texto = "Soporte ofrecido por el equipo de ingeniería de Red Dinámica."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "10"
                     titulo = "Soporte integral"
                     texto = "Ofrecemos soporte opcional 24/7 para entornos críticos."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "11"
                     titulo = "SLA controlado"
                     texto = "Nuestros procedimientos de soporte incluyen una estricto monitorización de SLA."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "33"
+                    nombreImagen = "12"
                     titulo = "Servicio confiable"
                     texto = "Nuestro soporte es el activo mejor valorado de nuestra plataforma."
                 />

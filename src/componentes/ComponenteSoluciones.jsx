@@ -689,27 +689,27 @@ export function ComponenteSolucionesCloud () {
                     texto = "Recopila, administra y analiza los logs de auditoría de eventos para identificar posibles anomalías. Mantén registros detallados para comprender a fondo los ataques y poder responder de manera eficaz a los incidentes de seguridad."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "14"
+                    nombreImagen = "44"
                     titulo = "Defensas contra Malware"
                     texto = "Supervisa y controla la instalación y ejecución de código malicioso en varios puntos de tu empresa para prevenir ataques. Configura y utiliza software antimalware y aprovecha la automatización para garantizar actualizaciones rápidas de defensas y una acción correctiva ágil en caso de ataques."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "14"
+                    nombreImagen = "43"
                     titulo = "Protección del Correo Electrónico y los Navegadores Web"
                     texto = "Protege y administra tus navegadores web y sistemas de correo electrónico contra amenazas en línea para reducir tu superficie de ataque. Desactiva navegadores y complementos de correo electrónico no autorizados y asegura que los usuarios solo accedan a sitios web de confianza mediante filtros de URL basados en la red."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "14"
+                    nombreImagen = "38"
                     titulo = "Capacidades de Recuperación de Datos"
                     texto = "Establece procesos y herramientas para asegurar que la información crítica de tu organización esté respaldada adecuadamente. Asegúrate de contar con un sistema de recuperación de datos confiable para restaurar la información en caso de ataques que pongan en peligro los datos críticos."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "14"
+                    nombreImagen = "43"
                     titulo = "Defensa de Límites y Protección de Datos"
                     texto = "Identifica y separa los datos sensibles, y establece una serie de procesos que incluyan la codificación, planes de protección contra la infiltración de datos y técnicas de prevención de pérdida de datos."
                 />
                 <ComponenteViñetaAnimada 
-                    nombreImagen = "14"
+                    nombreImagen = "42"
                     titulo = "Supervisión y Control de Cuentas"
                     texto = "Supervisa de cerca todo el ciclo de vida de tus sistemas y cuentas de aplicaciones, desde su creación hasta su eliminación, pasando por su uso e inactividad. Esta gestión activa previene que los atacantes aprovechen cuentas de usuarios legítimos pero inactivos para fines maliciosos."
                 />
