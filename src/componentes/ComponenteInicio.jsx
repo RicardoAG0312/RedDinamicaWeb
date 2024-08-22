@@ -2,7 +2,7 @@ import React from 'react'
 import "../estilos/componenteInicio.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import imagen7 from "../images/26.png";
-
+//DASDASDASD
 export function MiniComponentesSegundaSeccion ({imagen, titulo, texto}) {
     return (
         <div className='carta'>
