@@ -51,6 +51,10 @@ h1.subTituloProductos {
     flex-direction: column;
     padding: 30px;
 }
+.cartitaConImagen {
+    min-height: 1100px !important;
+    display: block;
+}
 .cartitaConImagen img {
     width: 100%;
 }
