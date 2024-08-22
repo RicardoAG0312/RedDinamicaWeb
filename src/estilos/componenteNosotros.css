@@ -230,7 +230,7 @@
     justify-content: center;
 }
 .seccion-Img-Central .middle-col img{
-    width: 600px;
+    width: 250px;
     height: auto;
 }
 .seccion-HMV button {
@@ -259,7 +259,7 @@
     padding: 10px;
 }
 .seccion-valores .imagen-puesta{
-    width: 150px;
+    width: 100%;
 }
 .seccion-valores .card-body {
     display: flex;

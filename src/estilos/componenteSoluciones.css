@@ -582,7 +582,7 @@
 }
 .contenedorFondoBlanco img{
     object-fit: cover;
-    width: 100%;
+    width: 50%;
 }
 /*Sección Info Central*/
 .contenedorInfoCentral{
@@ -680,7 +680,8 @@
     color: #000424;
 }
 .seccion-viñetas-animadas .viñeta-animada img {
-    width: 150px;
+    width: 90px;
+    object-fit: cover;
     position: absolute;
     transform: translateY(-40%);
     -webkit-transform: translateY(-40%);
@@ -706,7 +707,7 @@
 }
 .seccionImg {
     height: auto;
-    padding: 20px;
+    padding: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -787,10 +788,10 @@
 }
 .contenedorIMGTopBot .imagen-fullwidth{
     background-image: url('../images/37.png');
-    background-size: 80%;
+    background-size: 30%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 400px;
 }
 
 /* Media Querys */
